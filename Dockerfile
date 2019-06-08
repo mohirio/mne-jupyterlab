@@ -16,7 +16,7 @@ RUN conda install --quiet --yes \
     'matplotlib' \
     'mne' \
     'ipywidgets' &&\
-    conda clean -tipsy && \
+    conda clean --all -f -y && \
     export NODE_OPTIONS=--max-old-space-size=4096 && \
     jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --no-build && \
     jupyter labextension install plotlywidget@0.11.0 --no-build && \
