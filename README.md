@@ -1,9 +1,9 @@
 # mnelab
 
 JupyterLab Docker Image pre-configured with 
-[MNE](https://github.com/mne-tools/mne-python)/
-[Plotly](https://github.com/plotly/plotly.py)/
-[ipywidgets](https://github.com/jupyter-widgets/ipywidgets) and more for interactive EEG analysis.
+[MNE](https://github.com/mne-tools/mne-python) /
+[Plotly](https://github.com/plotly/plotly.py) /
+[ipywidgets](https://github.com/jupyter-widgets/ipywidgets) for interactive EEG analysis.
 
 All the needed JupyterLab extensions are pre-installed so there should 
 be no widget rendering issues.
