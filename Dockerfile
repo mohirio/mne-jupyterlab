@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir \
     jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --no-build && \
     jupyter labextension install plotlywidget@0.11.0 --no-build && \
     jupyter labextension install @jupyterlab/plotly-extension@0.18.2 --no-build && \
-    jupyter labextension install @mohirio/jupyterlab-horizon-theme@0.1.2 --no-build && \
+    jupyter labextension install @mohirio/jupyterlab-horizon-theme@0.1.4 --no-build && \
     jupyter lab build && \
     npm cache clean --force && \
     unset NODE_OPTIONS && \
